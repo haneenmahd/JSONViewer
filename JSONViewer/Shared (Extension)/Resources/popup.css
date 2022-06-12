@@ -22,10 +22,13 @@ hr {
     padding: 10px 0;
 }
 
+#content * {
+    margin: 8px 0;
+}
+
 .row {
     text-align: left;
     width: 90%;
-    margin: 20px 0;
     padding: 10px 0;
 }
 

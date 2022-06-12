@@ -14,8 +14,6 @@ function convertToReadableJSON(json) {
 <div style="row">
 <b>${key}</b>: <i>${json[key]}</i>
 </div>
-
-<hr />
 `;
 
     value += newProperty;
