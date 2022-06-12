@@ -14,14 +14,9 @@
         "512": "images/icon-512.png"
     },
 
-    "background": {
-        "scripts": [ "background.js" ],
-        "persistent": false
-    },
-
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "http://*/*" ]
     }],
 
     "browser_action": {
@@ -36,5 +31,5 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "activeTab", "tabs" ]
 }

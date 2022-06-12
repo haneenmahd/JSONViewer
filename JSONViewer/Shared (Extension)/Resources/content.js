@@ -1,7 +1,9 @@
-browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
-    console.log("Received response: ", response);
-});
+let bodyContent = document.querySelector('body').innerHTML;
 
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
+    if (request.type !== "content") {
+        return;
+    }
+    
+    sendResponse({ content: bodyContent });
 });
