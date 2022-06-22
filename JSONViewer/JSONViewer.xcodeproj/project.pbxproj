@@ -37,12 +37,6 @@
 		A95FAB3E285606D70020CFF2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF2285606D70020CFF2 /* manifest.json */; };
 		A95FAB41285606D70020CFF2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF4285606D70020CFF2 /* content.js */; };
 		A95FAB42285606D70020CFF2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF4285606D70020CFF2 /* content.js */; };
-		A95FAB43285606D70020CFF2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF5285606D70020CFF2 /* popup.html */; };
-		A95FAB44285606D70020CFF2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF5285606D70020CFF2 /* popup.html */; };
-		A95FAB45285606D70020CFF2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF6285606D70020CFF2 /* popup.css */; };
-		A95FAB46285606D70020CFF2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF6285606D70020CFF2 /* popup.css */; };
-		A95FAB47285606D70020CFF2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF7285606D70020CFF2 /* popup.js */; };
-		A95FAB48285606D70020CFF2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A95FAAF7285606D70020CFF2 /* popup.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,9 +93,6 @@
 		A95FAAF1285606D70020CFF2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		A95FAAF2285606D70020CFF2 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		A95FAAF4285606D70020CFF2 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		A95FAAF5285606D70020CFF2 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		A95FAAF6285606D70020CFF2 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		A95FAAF7285606D70020CFF2 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		A95FAAFC285606D70020CFF2 /* JSONViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95FAAFF285606D70020CFF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A95FAB01285606D70020CFF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,9 +192,6 @@
 				A95FAAF1285606D70020CFF2 /* images */,
 				A95FAAF2285606D70020CFF2 /* manifest.json */,
 				A95FAAF4285606D70020CFF2 /* content.js */,
-				A95FAAF5285606D70020CFF2 /* popup.html */,
-				A95FAAF6285606D70020CFF2 /* popup.css */,
-				A95FAAF7285606D70020CFF2 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -410,13 +398,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95FAB45285606D70020CFF2 /* popup.css in Resources */,
-				A95FAB43285606D70020CFF2 /* popup.html in Resources */,
 				A95FAB3B285606D70020CFF2 /* images in Resources */,
 				A95FAB3D285606D70020CFF2 /* manifest.json in Resources */,
 				A95FAB39285606D70020CFF2 /* _locales in Resources */,
 				A95FAB41285606D70020CFF2 /* content.js in Resources */,
-				A95FAB47285606D70020CFF2 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +409,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95FAB46285606D70020CFF2 /* popup.css in Resources */,
-				A95FAB44285606D70020CFF2 /* popup.html in Resources */,
 				A95FAB3C285606D70020CFF2 /* images in Resources */,
 				A95FAB3E285606D70020CFF2 /* manifest.json in Resources */,
 				A95FAB3A285606D70020CFF2 /* _locales in Resources */,
 				A95FAB42285606D70020CFF2 /* content.js in Resources */,
-				A95FAB48285606D70020CFF2 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
